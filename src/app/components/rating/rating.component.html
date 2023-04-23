@@ -1,0 +1,43 @@
+
+<div class="ratingStyle">
+<form #f="ngForm" (ngSubmit)="onSubmit()">
+    <div>
+      <h1>Rate our services below</h1>
+    </div>
+    
+    <div class="form-group">
+      <!-- <label for="rating">Rate your experience:</label> -->
+      <div class="rating">
+        <input type="radio" name="rating" [(ngModel)]="rating" id="star1" value="1">&nbsp;
+        <input type="radio" name="rating" [(ngModel)]="rating"id="star2" value="2">&nbsp;
+        <input type="radio" name="rating" [(ngModel)]="rating"id="star3" value="3">&nbsp;
+        <input type="radio" name="rating" [(ngModel)]="rating"id="star4" value="4">&nbsp;
+        <input type="radio" name="rating" [(ngModel)]="rating" id="star5" value="5">&nbsp;
+        <input type="radio" name="rating" [(ngModel)]="rating" id="star6" value="6">&nbsp;
+        <input type="radio" name="rating" [(ngModel)]="rating" id="star7" value="7">&nbsp;
+        <input type="radio" name="rating" [(ngModel)]="rating" id="star8" value="8">&nbsp;
+        <input type="radio"name="rating" [(ngModel)]="rating" id="star9" value="9">&nbsp;
+        <input type="radio" name="rating" [(ngModel)]="rating" id="star10" value="10">&nbsp;
+
+<br>
+        <label for="star1">1</label>&nbsp;&nbsp;
+        <label for="star2">2</label>&nbsp;&nbsp;
+        <label for="star3">3</label>&nbsp;&nbsp;
+        <label for="star4">4</label>&nbsp;&nbsp;
+        <label for="star4">5</label>&nbsp;&nbsp;
+        <label for="star4">6</label>&nbsp;&nbsp;
+        <label for="star4">7</label>&nbsp;&nbsp;
+        <label for="star4">8</label>&nbsp;&nbsp;
+        <label for="star4">9</label>&nbsp;&nbsp;
+        <label for="star4">10</label> <br>
+
+        <label for="star4">Terrible</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="star4">Amazing</label>
+
+
+      </div>
+    </div>
+    <div style="margin-top: 20px;">    
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </form>
+</div>
