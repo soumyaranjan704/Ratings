@@ -7,10 +7,12 @@ import { RatingComponent } from './components/rating/rating.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule } from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
+import { TooltipComponent } from './components/tooltip/tooltip.component';
 @NgModule({
   declarations: [
     AppComponent,
-    RatingComponent
+    RatingComponent,
+    TooltipComponent
   ],
   imports: [
     BrowserModule,
