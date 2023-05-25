@@ -8,11 +8,13 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule } from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 import { TooltipComponent } from './components/tooltip/tooltip.component';
+import { DatepickerComponent } from './components/datepicker/datepicker.component';
 @NgModule({
   declarations: [
     AppComponent,
     RatingComponent,
-    TooltipComponent
+    TooltipComponent,
+    DatepickerComponent
   ],
   imports: [
     BrowserModule,
